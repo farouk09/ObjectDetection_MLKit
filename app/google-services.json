@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1021260674988",
+    "firebase_url": "https://object-detection-mlkit-fa890.firebaseio.com",
+    "project_id": "object-detection-mlkit-fa890",
+    "storage_bucket": "object-detection-mlkit-fa890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021260674988:android:8b02d1fec7467694056c09",
+        "android_client_info": {
+          "package_name": "com.example.objectdetectionapp_mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021260674988-lv68mthk2dj81lu687mmf119n24cj6a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQs-a8XJ4iQVxVn8aLZlyULgPGUADcgAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021260674988-lv68mthk2dj81lu687mmf119n24cj6a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

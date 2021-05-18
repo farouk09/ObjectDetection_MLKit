@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/camera_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/detect_object" />
+
+    <com.example.objectdetectionapp_mlkit.Helper.GraphicOverlay
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/graphic_overlay"
+        android:layout_above="@+id/detect_object"
+        />
+
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detect_object"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="@string/detect_objects"></Button>
+
+</RelativeLayout>
